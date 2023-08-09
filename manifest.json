@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Retro Twitter",
   "version": "1.0",
-  "description": "Returning Twitter to its former glory",
+  "description": "Restoring the classic bird icon on twitter.com.",
 
   "icons": {
     "16": "images/icon14.png",
