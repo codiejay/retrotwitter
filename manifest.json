@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Retro Twitter",
+  "version": "1.0",
+  "description": "Returning Twitter to its former glory",
+
+  "icons": {
+    "16": "images/icon14.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://twitter.com/*", "https://x.com/*"]
+    }
+  ]
+}
