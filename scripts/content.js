@@ -33,10 +33,14 @@ const updateSiteIcon = () => {
     
 };
 
+const siteIcon = document.querySelector('link[rel="shortcut icon"]');
+  siteIcon.href =
+    'https://abs.twimg.com/responsive-web/client-web/icon-svg.168b89da.svg';
+
 window.onload = () => {
   setTimeout(() => {
     replaceSvgWithImage();
     updatePostSpanText();
-    updateSiteIcon();
+    // updateSiteIcon();
   }, 500);
 };
